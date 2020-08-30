@@ -65,10 +65,14 @@ def all_supplies_in_holidays(holiday_hash)
     puts season = key.to_s.capitalize << ":"
     value.each do |holiday, supply|
 
+      # Convert the holiday name to a string for comparison
+      puts holiday.to_s
+
       #Holiday: todo PUTS THIS
       holidayname = "  " << holiday.to_s.capitalize << ": "
 
       puts holidayname << supply.join(', ')
+
 
     end
 
