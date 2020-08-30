@@ -69,7 +69,12 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_name = "  " << holiday.to_s.capitalize << ": "
 
       supply.each do |item|
-        puts holiday_name << "#{item}"
+        holiday_name << "#{item}"
+        if supply.length > 1
+          holiday_name << ", "
+        else
+          
+        end
       end
 
     end
