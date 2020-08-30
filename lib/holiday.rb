@@ -76,7 +76,7 @@ def all_supplies_in_holidays(holiday_hash)
         if supply.length > 1
           holiday_name << ", "
         end
-        puts holiday_name
+        holiday_name
       end
 
     end
