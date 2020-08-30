@@ -74,9 +74,11 @@ def all_supplies_in_holidays(holiday_hash)
          array_name.each do |value|
            final_array << value.capitalize
          end
-         final_string = final_array.join(" ")
-         holidayname = "  " << final_string.to_s.capitalize << ": "
+
+         updated_capitalized_string = final_array.join(" ")
+         holidayname = "  " << updated_capitalized_string << ": "
          puts holidayname << supply.join(', ')
+
       else
         #Holiday: todo PUTS THIS
         holidayname = "  " << holiday.to_s.capitalize << ": "
