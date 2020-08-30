@@ -67,8 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
 
       # Convert the holiday name to a string for comparison
       if holiday.to_s.include?('_')
-         new_holiday_name = holiday.to_s.sub("_", " ")
-
+         new_holiday_name = holiday.to_s.gsub("_", " ")
 
          final_array = []
          array_name = new_holiday_name.split(" ")
