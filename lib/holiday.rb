@@ -69,7 +69,7 @@ def all_supplies_in_holidays(holiday_hash)
       if holiday.to_s.include?('_')
          new_holiday_name = holiday.to_s.sub("_", " ")
          puts new_holiday_name
-         
+
       else
         #Holiday: todo PUTS THIS
         holidayname = "  " << holiday.to_s.capitalize << ": "
