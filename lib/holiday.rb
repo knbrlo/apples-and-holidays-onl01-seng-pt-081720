@@ -69,6 +69,7 @@ def all_supplies_in_holidays(holiday_hash)
       if holiday.to_s.include?('_')
          new_holiday_name = holiday.to_s.sub("_", " ")
 
+
          final_array = []
          array_name = new_holiday_name.split(" ")
          array_name.each do |value|
