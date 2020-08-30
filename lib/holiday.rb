@@ -67,6 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
 
       # Convert the holiday name to a string for comparison
       puts holiday.to_s
+      
 
       #Holiday: todo PUTS THIS
       holidayname = "  " << holiday.to_s.capitalize << ": "
