@@ -40,10 +40,13 @@ end
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   # code here
   # remember to return the updated hash
-  puts season
-  holiday_hash[season] = [:holiday_name]
 
-  puts holiday_hash
+  holiday_hash.each do |key, value|
+    if key == season {
+      puts "were adding #{key}"
+      puts key
+    }
+  end
 
 
   holiday_hash
