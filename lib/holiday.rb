@@ -67,7 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
 
       # Convert the holiday name to a string for comparison
       if holiday.to_s.include?('_')
-        puts holiday
+        puts holiday.to_s
       end
 
 
