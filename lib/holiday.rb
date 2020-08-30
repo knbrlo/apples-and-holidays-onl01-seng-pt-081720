@@ -24,7 +24,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
 
 
 
-  
+
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
@@ -68,10 +68,3 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
 
 end
-
-
-
-
-
-
-
