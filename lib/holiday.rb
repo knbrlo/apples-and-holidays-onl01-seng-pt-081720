@@ -74,7 +74,7 @@ def all_supplies_in_holidays(holiday_hash)
          array_name.each do |value|
            final_array << value.capitalize
          end
-         puts array_name
+         puts final_array
 
       else
         #Holiday: todo PUTS THIS
