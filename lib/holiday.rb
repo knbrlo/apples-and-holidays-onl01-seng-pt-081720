@@ -68,7 +68,9 @@ def all_supplies_in_holidays(holiday_hash)
       # Convert the holiday name to a string for comparison
       if holiday.to_s.include?('_')
          new_holiday_name = holiday.to_s.sub("_", " ")
-         puts new_holiday_name.titleize
+
+         array_name = new_holiday_name.split("")
+         puts array_name
 
       else
         #Holiday: todo PUTS THIS
