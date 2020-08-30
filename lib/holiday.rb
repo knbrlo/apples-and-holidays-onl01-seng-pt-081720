@@ -66,8 +66,10 @@ def all_supplies_in_holidays(holiday_hash)
     value.each do |holiday, supply|
 
       # Convert the holiday name to a string for comparison
-      puts holiday.to_s
-      
+      if holiday.to_s.include?('_')
+        puts holiday
+      end
+
 
       #Holiday: todo PUTS THIS
       holidayname = "  " << holiday.to_s.capitalize << ": "
