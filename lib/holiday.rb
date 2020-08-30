@@ -67,18 +67,15 @@ def all_supplies_in_holidays(holiday_hash)
 
       # Convert the holiday name to a string for comparison
       if holiday.to_s.include?('_')
-        puts holiday.to_s
+         new_holiday_name = holiday.to_s.sub("_", " ")
+         puts new_holiday_name
+         
+      else
+        #Holiday: todo PUTS THIS
+        holidayname = "  " << holiday.to_s.capitalize << ": "
+        puts holidayname << supply.join(', ')
       end
-
-
-      #Holiday: todo PUTS THIS
-      holidayname = "  " << holiday.to_s.capitalize << ": "
-
-      puts holidayname << supply.join(', ')
-
-
     end
-
   end
 end
 
