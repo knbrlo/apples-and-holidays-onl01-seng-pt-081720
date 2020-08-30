@@ -72,8 +72,6 @@ def all_supplies_in_holidays(holiday_hash)
         holiday_name << "#{item}"
         if supply.length > 1
           holiday_name << ", "
-        else
-          
         end
       end
 
