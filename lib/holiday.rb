@@ -75,7 +75,6 @@ def all_supplies_in_holidays(holiday_hash)
 
 
       supply_name = supply
-      binding.pry
     end
 
   end
